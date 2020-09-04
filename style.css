@@ -1,0 +1,137 @@
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background: var(--VeryLightGray);
+    margin: 10px 30px;
+}
+.info{
+    text-align: center;
+    margin: 50px auto;
+
+}
+.info h1{
+    color: var(--VeryDarkBlue);
+    font-weight: 200;
+}
+.info h1 strong{
+    font-weight: 600;
+}
+.info p{
+    color: var(--GrayishBlue);
+    margin: 10px 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap; /*determina si los items se ajustan en una linea*/
+}
+
+.caja1{
+    border-top: 3px solid var(--Cyan);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color:var(--VeryDarkBlue);  
+}
+.caja1 h2{
+    color: var(--VeryDarkBlue);
+}
+.caja1 p{
+    color: var(--GrayishBlue);
+}
+.caja1 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+.caja2{
+    border-top: 3px solid var(--Red);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color:var(--VeryDarkBlue);  
+}
+.caja2 h2{
+    color: var(--VeryDarkBlue);
+}
+.caja2 p{
+    color: var(--GrayishBlue);
+}
+.caja2 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+.caja3{
+    border-top: 3px solid var(--Orange);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color:var(--VeryDarkBlue);  
+}
+.caja3 h2{
+    color: var(--VeryDarkBlue);
+}
+.caja3 p{
+    color: var(--GrayishBlue);
+}
+.caja3 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+.caja4{
+    border-top: 3px solid var(--Blue);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color:var(--VeryDarkBlue);  
+}
+.caja4 h2{
+    color: var(--VeryDarkBlue);
+}
+.caja4 p{
+    color: var(--GrayishBlue);
+}
+.caja4 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+/* version escritorio */
+@media screen and (min-width:768px){
+    .info p{
+        width: 550px;
+        margin: 50px auto;
+    }
+    .caja1{
+        transform: translateY(50%);
+    }
+    .caja3{
+        transform: translateY(50%);
+    }
+}    
